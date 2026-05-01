@@ -232,10 +232,10 @@
   },
   {
     "id": 22,
-    "nombre": "Almohaditas Mixtas",
+    "nombre": "Almohaditas Frutilla, Avellanas, Limón",
     "categoria": "granolas-cereales",
     "categoriaLabel": "Granolas y Cereales",
-    "descripcion": "Almohaditas rellenas de frutillas, avellanas y limón. Un snack irresistible y divertido.",
+    "descripcion": "Almohaditas rellenas con sabor a frutilla, avellanas y limón. Snack dulce y natural, sin conservantes.",
     "peso": "200g",
     "emoji": "🍓",
     "imagen": "assets/img/productos/almohaditas_frutilla_avellanas_limon.jpg",
@@ -243,6 +243,17 @@
   },
   {
     "id": 23,
+    "nombre": "Almohaditas Choco con Choco Blanco",
+    "categoria": "granolas-cereales",
+    "categoriaLabel": "Granolas y Cereales",
+    "descripcion": "Almohaditas de chocolate rellenas con chocolate blanco. Combinación irresistible para los más golosos.",
+    "peso": "200g",
+    "emoji": "🍫",
+    "imagen": "assets/img/productos/almohaditas_choco_con_choco_blanco.jpg",
+    "imagen_base": "assets/img/productos/almohaditas_choco_con_choco_blanco"
+  },
+  {
+    "id": 88,
     "nombre": "Almohaditas Chocolate",
     "categoria": "granolas-cereales",
     "categoriaLabel": "Granolas y Cereales",
@@ -682,6 +693,17 @@
     "imagen_base": "assets/img/productos/flor_hibiscus"
   },
   {
+    "id": 87,
+    "nombre": "Ají Molido",
+    "categoria": "especias-condimentos",
+    "categoriaLabel": "Especias y Condimentos",
+    "descripcion": "Ají molido picante natural. Da color y sabor a tus comidas. Ideal para empanadas, pizzas y asados.",
+    "peso": "100g",
+    "emoji": "🌶️",
+    "imagen": "assets/img/productos/aji_molido.jpg",
+    "imagen_base": "assets/img/productos/aji_molido"
+  },
+  {
     "id": 63,
     "nombre": "Semillas de Girasol",
     "categoria": "semillas",
@@ -782,7 +804,7 @@
   },
   {
     "id": 72,
-    "nombre": "Premezcla Biscochuelo Sin TACC",
+    "nombre": "Premezcla Biscochuelo Chocolate Sin TACC",
     "categoria": "sin-tacc",
     "categoriaLabel": "Sin TACC",
     "descripcion": "Premezcla para biscochuelo de chocolate sin gluten. Esponjoso y delicioso.",
@@ -793,6 +815,17 @@
   },
   {
     "id": 73,
+    "nombre": "Premezcla Biscochuelo Vainilla Sin TACC",
+    "categoria": "sin-tacc",
+    "categoriaLabel": "Sin TACC",
+    "descripcion": "Premezcla para biscochuelo de chocolate sin gluten. Esponjoso y delicioso.",
+    "peso": "500g",
+    "emoji": "🎂",
+    "imagen": "assets/img/productos/premezcla_delicel_biscochuelo_vainilla.jpg",
+    "imagen_base": "assets/img/productos/premezcla_delicel_biscochuelo_vainilla"
+  },
+  {
+    "id": 74,
     "nombre": "Premezcla Rebozador Sin TACC",
     "categoria": "sin-tacc",
     "categoriaLabel": "Sin TACC",
@@ -803,7 +836,7 @@
     "imagen_base": "assets/img/productos/premezcla_delicel_rebozador"
   },
   {
-    "id": 74,
+    "id": 75,
     "nombre": "Tutucas",
     "categoria": "sin-tacc",
     "categoriaLabel": "Sin TACC",
@@ -814,7 +847,7 @@
     "imagen_base": "assets/img/productos/tutucas"
   },
   {
-    "id": 75,
+    "id": 76,
     "nombre": "Maní con Cáscara",
     "categoria": "sin-tacc",
     "categoriaLabel": "Sin TACC",
@@ -825,7 +858,7 @@
     "imagen_base": "assets/img/productos/mani_cascara"
   },
   {
-    "id": 76,
+    "id": 77,
     "nombre": "Ajo Picado en Aceite de Oliva",
     "categoria": "conservas",
     "categoriaLabel": "Conservas",
@@ -836,7 +869,7 @@
     "imagen_base": "assets/img/productos/ajo_picado_en_aceite_oliva_al_limon"
   },
   {
-    "id": 77,
+    "id": 78,
     "nombre": "Pasta de Maní Clásica",
     "categoria": "conservas",
     "categoriaLabel": "Conservas",
@@ -847,7 +880,7 @@
     "imagen_base": "assets/img/productos/pasta_mani_clasica"
   },
   {
-    "id": 78,
+    "id": 79,
     "nombre": "Pasta de Maní Crunchy",
     "categoria": "conservas",
     "categoriaLabel": "Conservas",
@@ -858,7 +891,7 @@
     "imagen_base": "assets/img/productos/pasta_mani_clasica"
   },
   {
-    "id": 79,
+    "id": 80,
     "nombre": "Tostadas de Arroz",
     "categoria": "galletitas",
     "categoriaLabel": "Galletitas",
@@ -869,51 +902,51 @@
     "imagen_base": "assets/img/productos/tostadas_arroz_sin_sin_sal_dulces_clasicos"
   },
   {
-    "id": 80,
+    "id": 81,
     "nombre": "Mini Arrocitas Chocolate",
     "categoria": "galletitas",
     "categoriaLabel": "Galletitas",
     "descripcion": "Mini tortas de arroz con chocolate. Snack liviano y delicioso, sin gluten.",
     "peso": "53g",
     "emoji": "🍫",
-    "imagen": "assets/img/productos/mini_arrocitas.jpg",
-    "imagen_base": "assets/img/productos/mini_arrocitas"
+    "imagen": "assets/img/productos/mini_arrocitas_chocolate.jpg",
+    "imagen_base": "assets/img/productos/mini_arrocitas_chocolate"
   },
   {
-    "id": 81,
+    "id": 82,
     "nombre": "Mini Arrocitas Finas Hierbas",
     "categoria": "galletitas",
     "categoriaLabel": "Galletitas",
     "descripcion": "Mini tortas de arroz con finas hierbas. Opción salada y liviana, sin gluten.",
     "peso": "53g",
     "emoji": "🌿",
-    "imagen": "assets/img/productos/mini_arrocitas2.jpg",
-    "imagen_base": "assets/img/productos/mini_arrocitas2"
+    "imagen": "assets/img/productos/mini_arrocitas_hierbas.jpg",
+    "imagen_base": "assets/img/productos/mini_arrocitas_hierbas"
   },
   {
-    "id": 82,
+    "id": 83,
     "nombre": "Mini Arrocitas Caramel",
     "categoria": "galletitas",
     "categoriaLabel": "Galletitas",
     "descripcion": "Mini tortas de arroz sabor caramelo. Dulces y crujientes, una delicia sin gluten.",
     "peso": "53g",
     "emoji": "🍬",
-    "imagen": "assets/img/productos/mini_arrocitas3.jpg",
-    "imagen_base": "assets/img/productos/mini_arrocitas3"
+    "imagen": "assets/img/productos/mini_arrocitas_caramel.jpg",
+    "imagen_base": "assets/img/productos/mini_arrocitas_caramel"
   },
   {
-    "id": 83,
+    "id": 84,
     "nombre": "Mini Arrocitas Queso Romano",
     "categoria": "galletitas",
     "categoriaLabel": "Galletitas",
     "descripcion": "Mini tortas de arroz con queso romano. Sabor intenso y textura crujiente sin gluten.",
     "peso": "53g",
     "emoji": "🧀",
-    "imagen": "assets/img/productos/mini_arrocitos.jpg",
-    "imagen_base": "assets/img/productos/mini_arrocitos"
+    "imagen": "assets/img/productos/mini_arrocitas_queso.jpg",
+    "imagen_base": "assets/img/productos/mini_arrocitas_queso"
   },
   {
-    "id": 84,
+    "id": 85,
     "nombre": "Yerba Piporé Tradicional",
     "categoria": "yerbas",
     "categoriaLabel": "Yerbas",
@@ -924,7 +957,7 @@
     "imagen_base": "assets/img/productos/yerba_pipore_tradicional"
   },
   {
-    "id": 85,
+    "id": 86,
     "nombre": "Yerba Piporé Suave",
     "categoria": "yerbas",
     "categoriaLabel": "Yerbas",
