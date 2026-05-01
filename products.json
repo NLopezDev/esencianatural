@@ -617,10 +617,10 @@
   },
   {
     "id": 56,
-    "nombre": "Provensal",
+    "nombre": "Provenzal",
     "categoria": "especias-condimentos",
     "categoriaLabel": "Especias y Condimentos",
-    "descripcion": "Mezcla provensal con hierbas provenzales tradicionales. Aromática y deliciosa.",
+    "descripcion": "Mezcla provenzal con hierbas provenzales tradicionales. Aromática y deliciosa.",
     "peso": "200g",
     "emoji": "🌿",
     "imagen": "assets/img/productos/provensal.jpg",
