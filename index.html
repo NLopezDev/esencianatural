@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Esencia Natural — Dietética premium en Virreyes, Buenos Aires. Frutos secos, harinas, especias, semillas, sin TACC y más.">
+  <meta name="description"
+    content="Esencia Natural — Dietética premium. Frutos secos, harinas, especias, semillas, sin TACC y más.">
   <title>Esencia Natural | Dietética · Virreyes, Buenos Aires</title>
 
   <!-- 1. Preconnect a orígenes externos (antes de cualquier otra cosa) -->
@@ -13,12 +15,20 @@
   <link rel="preconnect" href="https://images.unsplash.com">
 
   <!-- 2. Fuentes como link (no @import): no bloquea el render -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap"></noscript>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap"
+    media="print" onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500&family=DM+Sans:wght@300;400;500;600&display=swap">
+  </noscript>
 
   <!-- 3. Font Awesome diferido (no bloquea render) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print" onload="this.media='all'">
-  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"></noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" media="print"
+    onload="this.media='all'">
+  <noscript>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  </noscript>
 
   <!-- 4. CSS propio (crítico — se carga normal) -->
   <link rel="stylesheet" href="assets/css/styles.css">
@@ -26,371 +36,335 @@
   <!-- 5. Preload del logo (above the fold, carga prioritaria) -->
   <link rel="preload" href="assets/img/esencia_natural_logo.png" as="image">
 </head>
+
 <body>
 
-<!-- PRELOADER -->
-<div id="preloader">
-  <div class="pre-inner">
-    <img class="pre-logo" src="assets/img/esencia_natural_logo.png" alt="Esencia Natural">
-    <div class="pre-dots"><span></span><span></span><span></span></div>
-  </div>
-</div>
-
-<!-- NAVBAR -->
-<nav id="navbar">
-  <div class="nav-wrap">
-    <a href="#inicio" class="nav-logo">
-      <img src="assets/img/esencia_natural_logo.png" alt="Esencia Natural" fetchpriority="high">
-    </a>
-    <ul class="nav-links">
-      <li><a href="#nosotros">Nosotros</a></li>
-      <li><a href="#categorias">Categorías</a></li>
-      <li><a href="#catalogo">Catálogo</a></li>
-      <li><a href="#contacto" class="nav-btn">Contacto</a></li>
-    </ul>
-    <button class="nav-menu" aria-label="Menú">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-  <div class="nav-panel">
-    <a href="#nosotros">Nosotros</a>
-    <a href="#categorias">Categorías</a>
-    <a href="#catalogo">Catálogo</a>
-    <a href="#contacto">Contacto</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section id="inicio">
-  <div class="hero-pattern"></div>
-  <div class="hero-foto"></div>
-  <div class="hero-grad"></div>
-  <div class="hero-deco-circle"></div>
-
-  <div class="hero-contenido">
-    <!-- Texto izquierda -->
-    <div class="hero-texto">
-      <div class="hero-tag">
-        <span>🌿</span> Dietética Premium · Virreyes, Buenos Aires
-      </div>
-      <h1 class="hero-titulo">
-        Nutrición que<br><em>nutre el alma</em>
-      </h1>
-      <p class="hero-desc">
-        Frutos secos, harinas, especias, semillas y más de 80 productos
-        naturales seleccionados con cuidado para tu bienestar.
-      </p>
-      <div class="hero-acciones">
-        <a href="#catalogo" class="btn btn-verde">
-          <i class="fas fa-leaf"></i> Ver Catálogo
-        </a>
-        <a href="#" class="btn btn-blanco" data-wa="Hola Esencia Natural! Me gustaría consultar sobre sus productos 🌿">
-          <i class="fab fa-whatsapp"></i> Consultar ahora
-        </a>
-      </div>
-    </div>
-
-    <!-- Stats derecha -->
-    <div class="hero-stats">
-      <div class="hero-stat">
-        <div class="num">85+</div>
-        <div class="lab">Productos disponibles</div>
-      </div>
-      <div class="hero-stat">
-        <div class="num">13</div>
-        <div class="lab">Categorías</div>
-      </div>
-      <div class="hero-stat">
-        <div class="num">100%</div>
-        <div class="lab">Productos naturales</div>
-      </div>
-      <div class="hero-stat">
-        <div class="num">Sin<br>TACC</div>
-        <div class="lab">Opciones sin gluten</div>
-      </div>
+  <!-- PRELOADER -->
+  <div id="preloader">
+    <div class="pre-inner">
+      <img class="pre-logo" src="assets/img/esencia_natural_logo.png" alt="Esencia Natural">
+      <div class="pre-dots"><span></span><span></span><span></span></div>
     </div>
   </div>
-</section>
 
-<!-- NOSOTROS -->
-<section id="nosotros">
-  <div class="contenedor">
-    <div class="about-layout">
-
-      <!-- Mosaico fotográfico -->
-      <div class="about-mosaico" data-rev="left">
-        <img class="img-grande"
-          src="assets/img/nosotros/mix.jpg"
-          alt="Frutos secos y mezclas naturales — Esencia Natural">
-        <img
-          src="assets/img/nosotros/harinas.jpg"
-          alt="Harinas artesanales naturales"
-          loading="lazy">
-        <img
-          src="assets/img/nosotros/legumbres.jpg"
-          alt="Legumbres y granos naturales"
-          loading="lazy">
-        <div class="about-badge">
-          <strong>100%</strong>
-          <span>Natural</span>
-        </div>
-      </div>
-
-      <!-- Texto -->
-      <div data-rev="right">
-        <span class="etiqueta-seccion">✦ Sobre Nosotros</span>
-        <h2 class="titulo-seccion">
-          Más que una dietética,<br><em>un estilo de vida</em>
-        </h2>
-        <div class="linea-deco"></div>
-        <p style="color:var(--texto-medio);font-size:1rem;line-height:1.85;margin-bottom:14px">
-          En <strong>Esencia Natural</strong> creemos que la alimentación es la base del bienestar.
-          Por eso seleccionamos cada producto con cuidado, priorizando calidad natural
-          y origen artesanal.
-        </p>
-        <p style="color:var(--texto-medio);font-size:1rem;line-height:1.85;margin-bottom:36px">
-          Ubicados en <strong>Patricias Argentina 2698, Virreyes</strong>, somos tu espacio
-          de confianza para encontrar todo lo que necesitás para una alimentación saludable
-          y consciente.
-        </p>
-
-        <div class="about-pilares">
-          <div class="pilar">
-            <div class="pilar-icono">🌱</div>
-            <div>
-              <h4>100% Natural</h4>
-              <p>Sin conservantes, colorantes ni aditivos innecesarios.</p>
-            </div>
-          </div>
-          <div class="pilar">
-            <div class="pilar-icono">⭐</div>
-            <div>
-              <h4>Calidad Premium</h4>
-              <p>Proveedores seleccionados, productos de primera línea.</p>
-            </div>
-          </div>
-          <div class="pilar">
-            <div class="pilar-icono">🤝</div>
-            <div>
-              <h4>Atención Personal</h4>
-              <p>Te asesoramos para elegir lo mejor para vos.</p>
-            </div>
-          </div>
-          <div class="pilar">
-            <div class="pilar-icono">🍞</div>
-            <div>
-              <h4>Opciones Sin TACC</h4>
-              <p>Gran variedad de productos libres de gluten.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-<!-- CATEGORÍAS VISUALES -->
-<section id="categorias">
-  <div class="contenedor">
-    <div class="cabecera centro" data-rev="up">
-      <span class="etiqueta-seccion">✦ Nuestras secciones</span>
-      <h2 class="titulo-seccion">Explorá por <em>categoría</em></h2>
-      <div class="linea-deco"></div>
-      <p class="sub-seccion">
-        Hacé clic en una categoría para ver los productos disponibles directamente en el catálogo.
-      </p>
-    </div>
-    <div class="cat-grid" id="cat-grid">
-      <!-- Renderizado por JS -->
-    </div>
-  </div>
-</section>
-
-<!-- CATÁLOGO -->
-<section id="catalogo">
-  <div class="contenedor">
-    <div class="cabecera" data-rev="up">
-      <span class="etiqueta-seccion">✦ Catálogo completo</span>
-      <h2 class="titulo-seccion">Todos nuestros <em>productos</em></h2>
-      <div class="linea-deco"></div>
-      <p class="sub-seccion">
-        Buscá tu producto o filtrá desde las categorías de arriba. 
-        Consultá disponibilidad por WhatsApp.
-      </p>
-    </div>
-
-    <!-- Buscador -->
-    <div class="catalogo-barra">
-      <div class="buscador-wrap">
-        <i class="fas fa-search"></i>
-        <input type="text" id="buscador" placeholder="Buscar producto… (ej: almendras, canela, avena)" autocomplete="off">
-      </div>
-    </div>
-
-    <!-- Grid de productos -->
-    <div class="productos-grid" id="productos-grid">
-      <div style="grid-column:1/-1;text-align:center;padding:60px;color:var(--texto-suave)">
-        <div style="font-size:2rem;margin-bottom:12px">🌿</div>
-        <p>Cargando catálogo…</p>
-      </div>
-    </div>
-    <div id="sin-resultados" class="sin-resultados">
-      <div class="sr-ico">🔍</div>
-      <p>No encontramos resultados.<br><small>Intentá con otro término o cambiá la categoría.</small></p>
-    </div>
-
-    <!-- CTA inferior -->
-    <div style="text-align:center;margin-top:60px;padding-top:48px;border-top:1px solid var(--borde)" data-rev="up">
-      <p style="color:var(--texto-medio);margin-bottom:20px;font-size:1rem">
-        ¿No encontrás lo que buscás? Consultanos directamente.
-      </p>
-      <a href="#" class="btn btn-verde" data-wa="Hola! Estoy buscando un producto específico. ¿Pueden ayudarme?">
-        <i class="fab fa-whatsapp"></i> Consultar producto por WhatsApp
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <div class="nav-wrap">
+      <a href="#inicio" class="nav-logo">
+        <img src="assets/img/esencia_natural_logo.png" alt="Esencia Natural" fetchpriority="high">
       </a>
+      <ul class="nav-links">
+        <li><a href="#nosotros">Nosotros</a></li>
+        <li><a href="#categorias">Categorías</a></li>
+        <li><a href="#catalogo">Catálogo</a></li>
+        <li><a href="#contacto" class="nav-btn">Contacto</a></li>
+      </ul>
+      <button class="nav-menu" aria-label="Menú">
+        <span></span><span></span><span></span>
+      </button>
     </div>
-  </div>
-</section>
-
-
-
-
-
-<!-- CONTACTO -->
-<section id="contacto">
-  <div class="contenedor">
-    <div class="cabecera centro" data-rev="up">
-      <span class="etiqueta-seccion">✦ Contacto</span>
-      <h2 class="titulo-seccion">Encontranos y <em>visitanos</em></h2>
-      <div class="linea-deco"></div>
-      <p class="sub-seccion">Estamos en Virreyes, Buenos Aires. Pasá por la tienda o consultanos por WhatsApp.</p>
+    <div class="nav-panel">
+      <a href="#nosotros">Nosotros</a>
+      <a href="#categorias">Categorías</a>
+      <a href="#catalogo">Catálogo</a>
+      <a href="#contacto">Contacto</a>
     </div>
+  </nav>
 
-    <div class="contacto-simple" data-rev="up">
+  <!-- HERO -->
+  <section id="inicio">
+    <div class="hero-pattern"></div>
+    <div class="hero-foto"></div>
+    <div class="hero-grad"></div>
+    <div class="hero-deco-circle"></div>
 
-      <!-- Datos en grid de 2 columnas -->
-      <div class="contacto-datos">
-        <div class="info-item">
-          <div class="info-ico"><i class="fas fa-map-marker-alt"></i></div>
-          <div class="info-data">
-            <h4>Dirección</h4>
-            <p>Patricias Argentina 2698<br>Virreyes, Buenos Aires</p>
-          </div>
+    <div class="hero-contenido">
+      <!-- Texto izquierda -->
+      <div class="hero-texto">
+        <div class="hero-tag">
+          <span>🌿</span> Dietética Premium
         </div>
-        <div class="info-item">
-          <div class="info-ico"><i class="fas fa-clock"></i></div>
-          <div class="info-data">
-            <h4>Horarios</h4>
-            <p>Lunes a Sábado: 9:00 – 19:00 hs<br>Domingos: Cerrado</p>
-          </div>
-        </div>
-        <div class="info-item">
-          <div class="info-ico"><i class="fab fa-whatsapp"></i></div>
-          <div class="info-data">
-            <h4>WhatsApp</h4>
-            <a href="#" data-wa="Hola! Me comunico desde la web 🌿">+54 11 1234-5678</a>
-          </div>
-        </div>
-        <div class="info-item">
-          <div class="info-ico"><i class="fas fa-envelope"></i></div>
-          <div class="info-data">
-            <h4>Email</h4>
-            <a href="mailto:info@esencianatural.com.ar">info@esencianatural.com.ar</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Redes sociales -->
-      <div class="redes" style="justify-content:center;margin:32px 0;">
-        <a href="#" class="red-link" target="_blank">
-          <i class="fab fa-instagram"></i> Instagram
-        </a>
-        <a href="#" class="red-link" target="_blank">
-          <i class="fab fa-facebook"></i> Facebook
-        </a>
-        <a href="#" class="red-link" data-wa="Hola! 🌿">
-          <i class="fab fa-whatsapp"></i> WhatsApp
-        </a>
-      </div>
-
-      <!-- Mapa -->
-      <div class="mapa-wrap">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3289.0!2d-58.5!3d-34.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sPatricias+Argentina+2698%2C+Virreyes%2C+Buenos+Aires!5e0!3m2!1ses!2sar!4v1"
-          width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          title="Ubicación Esencia Natural">
-        </iframe>
-        <div class="mapa-overlay">
-          <span>📍</span>
-          <p>Patricias Argentina 2698 · Virreyes</p>
-          <a href="https://maps.google.com/?q=Patricias+Argentina+2698+Virreyes+Buenos+Aires"
-             target="_blank" rel="noopener">
-            Abrir en Google Maps →
+        <h1 class="hero-titulo">
+          Nutrición que<br><em>nutre el alma</em>
+        </h1>
+        <p class="hero-desc">
+          Frutos secos, harinas artesanales, especias, semillas y más de 80 productos
+          naturales seleccionados con cuidado para tu bienestar.
+        </p>
+        <div class="hero-acciones">
+          <a href="#catalogo" class="btn btn-verde">
+            <i class="fas fa-leaf"></i> Ver Catálogo
+          </a>
+          <a href="#" class="btn btn-blanco"
+            data-wa="Hola Esencia Natural! Me gustaría consultar sobre sus productos 🌿">
+            <i class="fab fa-whatsapp"></i> Consultar ahora
           </a>
         </div>
       </div>
 
-    </div>
-  </div>
-</section>
-
-<!-- FOOTER -->
-<footer id="footer">
-  <div class="contenedor">
-    <div class="footer-grid">
-      <div class="footer-marca">
-        <img src="assets/img/esencia_natural_logo.png" alt="Esencia Natural">
-        <p>Dietética premium en Virreyes, Buenos Aires. Productos naturales y artesanales seleccionados con amor para tu bienestar.</p>
-        <div class="footer-redes">
-          <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
-          <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-          <a href="#" title="WhatsApp" data-wa="Hola! 🌿"><i class="fab fa-whatsapp"></i></a>
+      <!-- Stats derecha -->
+      <div class="hero-stats">
+        <div class="hero-stat">
+          <div class="num">85+</div>
+          <div class="lab">Productos disponibles</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">13</div>
+          <div class="lab">Categorías</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">100%</div>
+          <div class="lab">Productos naturales</div>
+        </div>
+        <div class="hero-stat">
+          <div class="num">Sin<br>TACC</div>
+          <div class="lab">Opciones sin gluten</div>
         </div>
       </div>
-      <div class="footer-col">
-        <h4>Navegación</h4>
-        <a href="#nosotros">Nosotros</a>
-        <a href="#categorias">Categorías</a>
-        <a href="#catalogo">Catálogo</a>
-        <a href="#contacto">Contacto</a>
-      </div>
-      <div class="footer-col">
-        <h4>Productos</h4>
-        <a href="#catalogo">Frutos Secos</a>
-        <a href="#catalogo">Granolas y Cereales</a>
-        <a href="#catalogo">Harinas y Legumbres</a>
-        <a href="#catalogo">Especias</a>
-        <a href="#catalogo">Sin TACC</a>
-        <a href="#catalogo">Semillas</a>
-      </div>
-      <div class="footer-col">
-        <h4>Contacto</h4>
-        <a href="#">📍 Patricias Argentina 2698</a>
-        <a href="#">🏙️ Virreyes, Buenos Aires</a>
-        <a href="#" data-wa="">📱 +54 11 1234-5678</a>
-        <a href="#">🕐 Lun–Sáb: 9:00 – 19:00</a>
-        <a href="mailto:info@esencianatural.com.ar">✉️ info@esencianatural.com.ar</a>
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros">
+    <div class="contenedor">
+      <div class="about-layout">
+
+        <!-- Mosaico fotográfico -->
+        <div class="about-mosaico" data-rev="left">
+          <img class="img-grande" src="assets/img/nosotros/mix.jpg"
+            alt="Frutos secos y mezclas naturales — Esencia Natural">
+          <img src="assets/img/nosotros/harinas.jpg" alt="Harinas artesanales naturales" loading="lazy">
+          <img src="assets/img/nosotros/legumbres.jpg" alt="Legumbres y granos naturales" loading="lazy">
+          <div class="about-badge">
+            <strong>100%</strong>
+            <span>Natural</span>
+          </div>
+        </div>
+
+        <!-- Texto -->
+        <div data-rev="right">
+          <span class="etiqueta-seccion">✦ Sobre Nosotros</span>
+          <h2 class="titulo-seccion">
+            Más que una dietética,<br><em>un estilo de vida</em>
+          </h2>
+          <div class="linea-deco"></div>
+          <p style="color:var(--texto-medio);font-size:1rem;line-height:1.85;margin-bottom:14px">
+            En <strong>Esencia Natural</strong> creemos que la alimentación es la base del bienestar.
+            Por eso seleccionamos cada producto con cuidado, priorizando calidad natural
+            y origen artesanal.
+          </p>
+          <p style="color:var(--texto-medio);font-size:1rem;line-height:1.85;margin-bottom:36px">
+            Ubicados en <strong>Patricias Argentina 2698, Virreyes</strong>, somos tu espacio
+            de confianza para encontrar todo lo que necesitás para una alimentación saludable
+            y consciente.
+          </p>
+
+          <div class="about-pilares">
+            <div class="pilar">
+              <div class="pilar-icono">🌱</div>
+              <div>
+                <h4>100% Natural</h4>
+                <p>Sin conservantes, colorantes ni aditivos innecesarios.</p>
+              </div>
+            </div>
+            <div class="pilar">
+              <div class="pilar-icono">⭐</div>
+              <div>
+                <h4>Calidad Premium</h4>
+                <p>Proveedores seleccionados, productos de primera línea.</p>
+              </div>
+            </div>
+            <div class="pilar">
+              <div class="pilar-icono">🤝</div>
+              <div>
+                <h4>Atención Personal</h4>
+                <p>Te asesoramos para elegir lo mejor para vos.</p>
+              </div>
+            </div>
+            <div class="pilar">
+              <div class="pilar-icono">🍞</div>
+              <div>
+                <h4>Opciones Sin TACC</h4>
+                <p>Gran variedad de productos libres de gluten.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
+  </section>
 
-    <p class="footer-frase">"Que tu alimento sea tu medicina" — Hipócrates</p>
-
-    <div class="footer-base">
-      <p>&copy; 2025 Esencia Natural · Todos los derechos reservados.</p>
-      <p>Hecho con 💚 en Virreyes, Buenos Aires</p>
+  <!-- CATEGORÍAS VISUALES -->
+  <section id="categorias">
+    <div class="contenedor">
+      <div class="cabecera centro" data-rev="up">
+        <span class="etiqueta-seccion">✦ Nuestras secciones</span>
+        <h2 class="titulo-seccion">Explorá por <em>categoría</em></h2>
+        <div class="linea-deco"></div>
+        <p class="sub-seccion">
+          Hacé clic en una categoría para ver los productos disponibles directamente en el catálogo.
+        </p>
+      </div>
+      <div class="cat-grid" id="cat-grid">
+        <!-- Renderizado por JS -->
+      </div>
     </div>
+  </section>
+
+  <!-- CATÁLOGO -->
+  <section id="catalogo">
+    <div class="contenedor">
+      <div class="cabecera" data-rev="up">
+        <span class="etiqueta-seccion">✦ Catálogo completo</span>
+        <h2 class="titulo-seccion">Todos nuestros <em>productos</em></h2>
+        <div class="linea-deco"></div>
+        <p class="sub-seccion">
+          Buscá tu producto o filtrá desde las categorías de arriba.
+          Consultá disponibilidad por WhatsApp.
+        </p>
+      </div>
+
+      <!-- Buscador -->
+      <div class="catalogo-barra">
+        <div class="buscador-wrap">
+          <i class="fas fa-search"></i>
+          <input type="text" id="buscador" placeholder="Buscar producto… (ej: almendras, canela, avena)"
+            autocomplete="off">
+        </div>
+      </div>
+
+      <!-- Grid de productos -->
+      <div class="productos-grid" id="productos-grid">
+        <div style="grid-column:1/-1;text-align:center;padding:60px;color:var(--texto-suave)">
+          <div style="font-size:2rem;margin-bottom:12px">🌿</div>
+          <p>Cargando catálogo…</p>
+        </div>
+      </div>
+      <div id="sin-resultados" class="sin-resultados">
+        <div class="sr-ico">🔍</div>
+        <p>No encontramos resultados.<br><small>Intentá con otro término o cambiá la categoría.</small></p>
+      </div>
+
+      <!-- CTA inferior -->
+      <div style="text-align:center;margin-top:60px;padding-top:48px;border-top:1px solid var(--borde)" data-rev="up">
+        <p style="color:var(--texto-medio);margin-bottom:20px;font-size:1rem">
+          ¿No encontrás lo que buscás? Consultanos directamente.
+        </p>
+        <a href="#" class="btn btn-verde" data-wa="Hola! Estoy buscando un producto específico. ¿Pueden ayudarme?">
+          <i class="fab fa-whatsapp"></i> Consultar producto por WhatsApp
+        </a>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <!-- CONTACTO -->
+  <section id="contacto">
+    <div class="contenedor">
+      <div class="cabecera centro" data-rev="up">
+        <span class="etiqueta-seccion">✦ Contacto</span>
+        <h2 class="titulo-seccion">Encontranos y <em>visitanos</em></h2>
+        <div class="linea-deco"></div>
+        <p class="sub-seccion">Estamos en Virreyes, Buenos Aires. Pasá por la tienda o consultanos por WhatsApp.</p>
+      </div>
+
+      <div class="contacto-simple" data-rev="up">
+
+        <!-- Datos en grid de 2 columnas -->
+        <div class="contacto-datos">
+          <div class="info-item">
+            <div class="info-ico"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="info-data">
+              <h4>Dirección</h4>
+              <p>Patricias Argentina 2698<br>Virreyes, Buenos Aires</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-ico"><i class="fas fa-clock"></i></div>
+            <div class="info-data">
+              <h4>Horarios</h4>
+              <p>Lunes a Sábado: 9:00 – 19:00 hs<br>Domingos: Cerrado</p>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-ico"><i class="fab fa-whatsapp"></i></div>
+            <div class="info-data">
+              <h4>WhatsApp</h4>
+              <a href="#" data-wa="Hola! Me comunico desde la web 🌿">+54 11 1234-5678</a>
+            </div>
+          </div>
+          <div class="info-item">
+            <div class="info-ico"><i class="fab fa-instagram"></i></div>
+            <div class="info-data">
+              <h4>Instagram</h4>
+              <a href="https://www.instagram.com/esencianatural.diet?igsh=MTlzYjkzZ3d1eXB5cA==" target="_blank"
+                rel="noopener">@esencianatural.diet</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer">
+    <div class="contenedor">
+      <div class="footer-grid">
+        <div class="footer-marca">
+          <img src="assets/img/esencia_natural_logo.png" alt="Esencia Natural">
+          <p>Dietética premium en Virreyes, Buenos Aires. Productos naturales y artesanales seleccionados con amor para
+            tu bienestar.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Navegación</h4>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#categorias">Categorías</a>
+          <a href="#catalogo">Catálogo</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+        <div class="footer-col">
+          <h4>Productos</h4>
+          <a href="#catalogo">Frutos Secos</a>
+          <a href="#catalogo">Granolas y Cereales</a>
+          <a href="#catalogo">Harinas y Legumbres</a>
+          <a href="#catalogo">Especias</a>
+          <a href="#catalogo">Sin TACC</a>
+          <a href="#catalogo">Semillas</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contacto</h4>
+          <a href="#">📍 Patricias Argentina 2698</a>
+          <a href="#">🏙️ Virreyes, Buenos Aires</a>
+          <a href="#" data-wa="">📱 +54 11 1234-5678</a>
+          <a href="#">🕐 Lun–Sáb: 9:00 – 19:00</a>
+          <a href="https://www.instagram.com/esencianatural.diet?igsh=MTlzYjkzZ3d1eXB5cA==" target="_blank"
+            rel="noopener">@esencianatural.diet</a>
+        </div>
+      </div>
+
+      <p class="footer-frase">"Que tu alimento sea tu medicina" — Hipócrates</p>
+
+      <div class="footer-base">
+        <p>&copy; 2025 Esencia Natural · Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WA FLOTANTE -->
+  <div id="wa-float">
+    <div class="wa-tip">¡Hablamos por WhatsApp! 💬</div>
+    <a href="#" class="wa-btn" data-wa="Hola Esencia Natural! 🌿 Me gustaría consultar sobre sus productos."
+      title="WhatsApp">
+      <i class="fab fa-whatsapp"></i>
+    </a>
   </div>
-</footer>
 
-<!-- WA FLOTANTE -->
-<div id="wa-float">
-  <div class="wa-tip">¡Hablamos por WhatsApp! 💬</div>
-  <a href="#" class="wa-btn" data-wa="Hola Esencia Natural! 🌿 Me gustaría consultar sobre sus productos." title="WhatsApp">
-    <i class="fab fa-whatsapp"></i>
-  </a>
-</div>
-
-<script src="assets/js/app.js" defer></script>
+  <script src="assets/js/app.js" defer></script>
 </body>
+
 </html>
