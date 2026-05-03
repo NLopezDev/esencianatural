@@ -3,7 +3,7 @@
    ============================================= */
 'use strict';
 
-const WA_NUM = '5491112345678'; // ← REEMPLAZAR por número real sin + ni espacios
+const WA_NUM = '5491171076550'; // ← REEMPLAZAR por número real sin + ni espacios
 const WA_MSG = 'Hola Esencia Natural! Me gustaría consultar sobre sus productos 🌿';
 
 function waLink(msg) {
